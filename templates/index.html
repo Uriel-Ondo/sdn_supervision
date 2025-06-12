@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Supervision SDN</title>
+</head>
+<body>
+    <h2>Supervision des Ports SDN</h2>
+    <label for="switchSelect">Switch :</label>
+    <select id="switchSelect"></select>
+
+    <table border="1">
+        <thead>
+            <tr>
+                <th>Port</th>
+                <th>RX Packets</th>
+                <th>TX Packets</th>
+                <th>RX Bytes</th>
+                <th>TX Bytes</th>
+            </tr>
+        </thead>
+        <tbody id="portData"></tbody>
+    </table>
+
+    <script src="/static/app.js"></script>
+</body>
+</html>
